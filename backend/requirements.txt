@@ -1,0 +1,50 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+SQLAlchemy==2.0.23
+pydantic==2.5.0
+pydantic-settings==2.1.0
+psycopg2-binary==2.9.9
+alembic==1.12.1
+python-dotenv==1.0.0
+redis==5.0.1
+pandas==2.1.3
+numpy==1.26.2
+scikit-learn==1.3.2
+joblib==1.3.2
+
+# ML & Time-Series Libraries
+prophet==1.1.5
+statsmodels==0.14.1
+pmdarima==2.0.4
+tensorflow==2.15.0
+keras==2.15.0
+
+# Additional ML Tools
+xgboost==2.0.3
+lightgbm==4.1.0
+imbalanced-learn==0.11.0
+
+# Notifications & Communication
+celery==5.3.4
+python-multipart==0.0.6
+emails==0.6
+jinja2==3.1.2
+twilio==8.10.0
+
+# Monitoring & Analytics
+prometheus-client==0.19.0
+sentry-sdk[fastapi]==1.39.1
+
+# Data Processing
+pyarrow==14.0.1
+openpyxl==3.1.2
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2

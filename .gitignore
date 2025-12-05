@@ -1,0 +1,158 @@
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# === Node / Next.js ===
+node_modules/
+.next/
+out/
+# Next.js telemetry
+.next/trace
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+
+# === Environments & Secrets ===
+.env
+.env.*
+*.env
+*.env.*
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.*
+# Common secret files
+*.pem
+*.key
+*.crt
+*.cert
+*.pfx
+*.keystore
+*.jks
+
+# === Local Databases & Storage ===
+*.db
+*.sqlite
+*.sqlite3
+backend/pams.db
+
+# === Logs ===
+*.log
+logs/
+
+# === Coverage / Tests ===
+coverage/
+.pytest_cache/
+
+# === Build Artifacts ===
+dist/
+build/
+
+# === Docker ===
+# local overrides or secrets
+*.env.docker
+
+# === Alembic ===
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# === Misc ===
+# Ignore screenshots or temp files
+screenshots/
+*.tmp
+*.bak# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.env
+.venv
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML Models
+ml_models/
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js / Frontend
+node_modules/
+.next/
+out/
+build/
+dist/
+*.local
+
+# Docker
+.docker/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Alembic
+alembic/versions/*.py
+!alembic/versions/__init__.py
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+*.csv
+*.xlsx
+*.json
+!package.json
+!tsconfig.json
+!next.config.js
+data/
+
+# Backup files
+*.bak
+*.backup
